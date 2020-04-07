@@ -2,16 +2,39 @@
     box-sizing: border-box;
 }
 
+div#first {
 
-div.section {
     height: 100vh;
     width: 100vw;
+
+    position: sticky;
+    top: -800px;
+}
+
+div#second {
+    border-color: red;
+
+    height: 100vh;
+    width: 100vw;
+
+    position: sticky;
+    top: 0px;
+
+}
+div#third {
+    border-color: red;
+
+    height: 100vh;
+    width: 100vw;
+
+    position: sticky;
+    top: 110px;
+
 }
 
 
 p.poem {
     font-family: 'Amatic SC', cursive;
-padding-left: 50px;
-    padding-top: 50px;
+    padding-left: 50px;
     font-size: 40px;
 }
