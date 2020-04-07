@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+
+div.section {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+p.poem {
+    font-family: 'Amatic SC', cursive;
+padding-left: 50px;
+    padding-top: 50px;
+    font-size: 40px;
+}
